@@ -1,0 +1,133 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+     width: 90%;
+     margin: 0 auto;
+     max-width: 1200px;
+}
+
+h1, h2, h3, h4 {
+      color: black;
+      text-transform: uppercase;
+      font-weight: 700;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+header {
+   text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 38px 20px 20px;
+  border-bottom: 3px solid #77a466;
+}
+
+
+header h1 span {
+   color: #77a466;
+}
+
+header nav {
+    padding: 20px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 0 10px;
+      margin-bottom: 20px;
+      list-style-type: none;
+      
+}
+
+header nav ul li a {
+      text-decoration: none;
+      color: #77a466;
+}
+
+
+.main-image img {
+      max-width: 100%;
+      border: 3px solid #77a466;
+}
+
+
+.main-title h3 {
+       text-align: left;
+       color: #77a466;
+}
+
+.main-title p {
+       padding: 0;
+       font-size: 1rem;
+       line-height: 1.562rem;
+}
+
+.section-one,
+.section-two,
+.section-three {
+       border-top: 1px solid #eee;
+       margin: 0;
+       width: 100%;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+     color: #77a466;
+     padding-bottom: 10px;
+}
+
+.reviews {
+     color: #333;
+     font-size: 1rem;
+     line-height: 1.312rem;
+}
+
+.address {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+footer {
+     border-top: 3px solid #eee;
+     text-align: center;
+}
+
+footer span {
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color: #77a466;
+    font-size: 0.875rem;
+}
+
