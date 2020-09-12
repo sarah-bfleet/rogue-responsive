@@ -131,3 +131,66 @@ footer span {
     font-size: 0.875rem;
 }
 
+/*=======================
+         TABLET
+=======================*/
+
+@media all and (min-width:768px) {
+  /* Tablet styles here */
+
+  .bottom-section {
+       display: flex;
+       border-top: 1px solid #eee;
+   }
+
+  .section-two {
+      border-left: 1px solid #eee;
+      border-right: 1px solid #eee;
+      padding: 0 20px;
+   }
+   
+   .col + .col {
+	     margin-left: 30px;                          
+   }
+
+   .section-one,
+   .section-two,
+   .section-three {
+        border-top: none;
+   } 
+
+   .menu li {
+    padding: 10px 0;
+  }
+
+}
+
+/*=======================
+         DESKTOP
+=======================*/
+
+@media all and (min-width:1200px) {
+  /* Desktop styles here */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  nav li {
+    display: inline;
+  }
+
+  header h1 {
+    border-bottom: none;
+    padding: 20px 0;
+  }
+
+
+}
